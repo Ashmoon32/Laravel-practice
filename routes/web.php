@@ -31,3 +31,5 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('/test/about');
 });
+
+Route::view('/contact', 'test/contact');
