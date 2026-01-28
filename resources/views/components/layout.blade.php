@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 13, 255);
+            
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+   <main>
     {{  $slot }}
+   </main>
 </body>
 </html>

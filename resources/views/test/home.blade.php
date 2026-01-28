@@ -69,6 +69,7 @@
         <img src="https://www.tuftsmedicine.org/sites/default/files/styles/responsive_600w/public/2023-07/LGH-Tewksbury-Urgent-Care-Doctor-Patient.jpg.webp?itok=dURQp0ZT"
             alt="clinic-pic"><br>
         <button type="submit"><a href="/about">Learn More About Our Clinic!</a></button>
+        <a href="/contact">Contact Us</a>
    </div>
 
 </body>
