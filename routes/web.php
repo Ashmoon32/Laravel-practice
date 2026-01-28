@@ -21,3 +21,9 @@ Route::get('/contact', function () {
 Route::post('/contact/submit', function () {
     return view('/layouts/contact');
 });
+
+// for test
+
+Route::get('/home', function () {
+    return view('test/home');
+});
