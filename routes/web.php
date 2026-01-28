@@ -3,17 +3,21 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts/app');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/home', function () {
+    return view('/layouts/home');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('/layouts/about');
+});
+
+Route::get('/contact', function () {
+    return view('/layouts/contact');
+});
+
+Route::post('/contact/submit', function () {
+    return view('/layouts/contact');
 });
