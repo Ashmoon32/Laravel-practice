@@ -37,13 +37,18 @@
 
         button {
         background: rgb(32, 117, 136);
-        color: #fff;
         border: none;
         outline: none;
         border-radius: 10px;
         padding: 10px;
         font-size: 1rem;
         margin-top: 10px;
+        
+        }
+
+        button a {
+            text-decoration: none;
+            color: #fff;
         }
 
         button:hover {
@@ -63,7 +68,7 @@
         <h1>Welcome to Our Clinic <span>ShweWaThuKa...</span></h1>
         <img src="https://www.tuftsmedicine.org/sites/default/files/styles/responsive_600w/public/2023-07/LGH-Tewksbury-Urgent-Care-Doctor-Patient.jpg.webp?itok=dURQp0ZT"
             alt="clinic-pic"><br>
-        <button type="submit">Learn More About Our Clinic!</button>
+        <button type="submit"><a href="/about">Learn More About Our Clinic!</a></button>
    </div>
 
 </body>

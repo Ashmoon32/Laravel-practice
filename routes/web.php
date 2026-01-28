@@ -27,3 +27,7 @@ Route::post('/contact/submit', function () {
 Route::get('/home', function () {
     return view('test/home');
 });
+
+Route::get('/about', function () {
+    return view('/test/about');
+});
