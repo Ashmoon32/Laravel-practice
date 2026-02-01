@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('layouts/app');
-});
+// Route::get('/', function () {
+//     return view('layouts/app');
+// });
 
 Route::get('/home', function () {
     return view('/layouts/home');
@@ -24,7 +24,7 @@ Route::post('/contact/submit', function () {
 
 // for test
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('test/home');
 });
 
@@ -33,3 +33,9 @@ Route::get('/about', function () {
 });
 
 Route::view('/contact', 'test/contact');
+
+Route::view('/', 'home');
+
+Route::view('/about', 'about');
+
+Route::view('/contact', 'contact');
