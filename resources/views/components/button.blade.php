@@ -1,6 +1,7 @@
-<div>
-    <!-- Because you are alive, everything is possible. - Thich Nhat Hanh -->
-    <button>
-        Click me
-    </button>
-</div>
+@props(['type' => 'button'])
+
+<button 
+    type="{{ $type }}" 
+    class="bg-blue-500 text-white px-4 py-2 rounded">
+    {{ $slot }}
+</button>
