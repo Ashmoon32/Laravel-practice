@@ -39,3 +39,15 @@ Route::view('/', 'home');
 Route::view('/about', 'about');
 
 Route::view('/contact', 'contact');
+
+Route::view('/welcome', 'welcome', [
+    "name" => request("person"),
+    "greeting" => "Welcome, ",
+]);
+
+Route::get('/welcome', function () {
+    return view('welcome', [
+        "name" => request('person', 'Guest'),
+        "greeting" => 'Welcome, '
+    ]);
+});

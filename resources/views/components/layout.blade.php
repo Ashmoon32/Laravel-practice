@@ -19,6 +19,7 @@
 
     <main>
         {{  $slot }}
+        <a href="/welcome">Back to Welcome Page</a>
     </main>
 
 </body>
